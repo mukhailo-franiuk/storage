@@ -1,0 +1,182 @@
+@media (min-width: 1441px) {
+  .header-container {
+    width: 100%;
+    height: 80px;
+  }
+  .header-container .header {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 2px solid #FFFFFF;
+  }
+  .header-container .header .burger-menu {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container .header .burger-menu .burger-container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  .header-container .header .burger-menu .burger-container button {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  .header-container .header .burger-menu .burger-container button .line {
+    width: 100%;
+    height: 3px;
+    background-color: #FF0000;
+    border-radius: 10px;
+  }
+  .header-container .header .burger-menu .burger-container:hover {
+    background: #696666;
+  }
+  .header-container .header .catalog-block {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container .header .catalog-block button {
+    width: 60%;
+    height: 60%;
+    background: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .header-container .header .catalog-block button:hover {
+    border: 2px solid #FFFFFF;
+    color: #FF0000;
+  }
+  .header-container .header .logo {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container .header .logo a {
+    font-size: 2.2em;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .header-container .header .action-users {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container .header .action-users button {
+    background: none;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s linear;
+  }
+  .header-container .header .action-users button img {
+    width: 70%;
+    height: 65%;
+  }
+  .header-container .header .action-users button:hover {
+    background-color: #696666;
+  }
+  .header-container .container-modals-windows {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .header-container .container-modals-windows .canvas-windows {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(70, 69, 69, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container .container-modals-windows .canvas-windows .enter-user {
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  .header-container .container-modals-windows .canvas-windows .enter-user .close {
+    position: absolute;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+  }
+  .header-container .container-modals-windows .canvas-windows .enter-user .close .line-01 {
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    background-color: #000000;
+    position: relative;
+    top: 2px;
+  }
+  .header-container .container-modals-windows .canvas-windows .enter-user .close .line-02 {
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+    background-color: #000000;
+    position: relative;
+    bottom: 1px;
+  }
+  .header-container .container-modals-windows .canvas-windows .enter-user .close:hover {
+    background-color: #000000;
+  }
+  .header-container .container-modals-windows .canvas-windows .enter-user .close:hover .line-01, .header-container .container-modals-windows .canvas-windows .enter-user .close:hover .line-02 {
+    background-color: #FFFFFF;
+  }
+  .header-container .container-modals-windows .canvas-windows .open {
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+  }
+  .header-container .open-container {
+    display: block;
+  }
+}/*# sourceMappingURL=Header.css.map */
